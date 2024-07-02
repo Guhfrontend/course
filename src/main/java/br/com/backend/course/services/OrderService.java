@@ -18,6 +18,7 @@ public class OrderService {
     public List<Order> findAll(){
         return  repository.findAll();
     }
+
     public Order findById(Integer id){
         Optional<Order> obj = repository.findById(id);
         return obj.get();
