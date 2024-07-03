@@ -1,6 +1,6 @@
-package br.com.backend.course.entites;
+package br.com.backend.course.model;
 
-import br.com.backend.course.entites.enums.OrderStatus;
+import br.com.backend.course.model.enums.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import java.io.Serializable;

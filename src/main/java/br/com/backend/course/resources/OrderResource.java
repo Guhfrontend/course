@@ -1,6 +1,6 @@
 package br.com.backend.course.resources;
 
-import br.com.backend.course.entites.Order;
+import br.com.backend.course.model.Order;
 import br.com.backend.course.services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

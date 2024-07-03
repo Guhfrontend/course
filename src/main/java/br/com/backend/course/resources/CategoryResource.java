@@ -1,6 +1,6 @@
 package br.com.backend.course.resources;
 
-import br.com.backend.course.entites.Category;
+import br.com.backend.course.model.Category;
 import br.com.backend.course.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

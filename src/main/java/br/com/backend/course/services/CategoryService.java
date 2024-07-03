@@ -1,6 +1,6 @@
 package br.com.backend.course.services;
 
-import br.com.backend.course.entites.Category;
+import br.com.backend.course.model.Category;
 import br.com.backend.course.repositores.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

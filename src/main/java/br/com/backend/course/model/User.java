@@ -1,4 +1,4 @@
-package br.com.backend.course.entites;
+package br.com.backend.course.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

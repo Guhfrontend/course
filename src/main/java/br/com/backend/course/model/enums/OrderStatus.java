@@ -1,4 +1,4 @@
-package br.com.backend.course.entites.enums;
+package br.com.backend.course.model.enums;
 
 public enum OrderStatus {
 
