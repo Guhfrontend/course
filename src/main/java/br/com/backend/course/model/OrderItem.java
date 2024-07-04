@@ -38,6 +38,7 @@ public class OrderItem implements Serializable {
         id.setOrder(order);
     }
 
+
     public Product getProduct(){
         return id.getProduct();
     }
@@ -63,10 +64,10 @@ public class OrderItem implements Serializable {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        OrderItem orderItem = (OrderItem) o;
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        OrderItem orderItem = (OrderItem) obj;
         return Objects.equals(id, orderItem.id);
     }
 
