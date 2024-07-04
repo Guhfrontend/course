@@ -1,11 +1,10 @@
 package br.com.backend.course.model;
 
 import br.com.backend.course.model.pk.OrderItemPK;
-import jakarta.persistence.Embeddable;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
-
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -15,7 +14,7 @@ public class OrderItem implements Serializable {
     private static final long serialVersonUID = 1L;
 
     @EmbeddedId
-    private OrderItemPK id;
+    private OrderItemPK id = new OrderItemPK();
 
     private Integer quantity;
     private Double price;
@@ -30,6 +29,7 @@ public class OrderItem implements Serializable {
         this.price = price;
     }
 
+    @JsonIgnore
     public Order getOrder(){
         return id.getOrder();
     }
