@@ -31,8 +31,8 @@ Usado o modelo conceitual para modelar a orientação a objetos e ser utilizado 
 ## Back end
 Pré-requisitos: Java 17 e Spring Boot 3
 
-```bash
 # clonar repositório
+```bash
 git clone https://github.com/Guhfrontend/workshop-Spring-jpa
 ```
 
