@@ -2,7 +2,6 @@ package br.com.backend.course.model;
 
 import br.com.backend.course.model.enums.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import java.io.Serializable;
 import java.time.Instant;
