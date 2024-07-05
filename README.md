@@ -23,8 +23,10 @@ Usado o modelo conceitual para modelar a orientação a objetos e ser utilizado 
 - Spring Boot
 - JPA / Hibernate
 - Maven
-- Back end: Heroku
-- Banco de dados: Postgresql
+- Depêndencias
+- SGBD: PostgreSQL
+- SQL
+- Deploy: Heroku
 
 # Como executar o projeto
 
